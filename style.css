@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(./sharadesert.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+li {
+  color: white;
+  margin-right: 60px;
+}
+
+.logomain {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin-left: 80px;
+  margin-top: 15px;
+  vertical-align: top;
+}
+
+.menu-fav {
+  position: absolute;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  top: 50px;
+  left: 1430px;
+}
+
+ul {
+  list-style-type: none;
+  position: absolute;
+  top: 9%;
+  left: 84%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 15px 0;
+  color: #fff;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+.imagecontainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 180px;
+  gap: 25px 40px;
+  float: right;
+  margin-top: 60px;
+  margin-right: 50px;
+  align-content: space-between;
+}
+
+#imghbox {
+  width: 220px;
+  height: 250px;
+  transition: margin 0.2s ease-in-out;
+}
+
+#imghbox:hover {
+  cursor: pointer;
+  margin-top: -15px;
+}
+
+.box-pr {
+  color: white;
+  font-size: 16px;
+  margin: 20px;
+  font-weight: bold;
+}
+
+.box-smlpr {
+  color: white;
+  margin: 20px;
+  font-size: 10px;
+}
+
+.imgbox1 {
+  background-image: url(./pic-1.png);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.imgbox2 {
+  background-image: url(./pic-2.png);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.imgbox3 {
+  background-image: url(./pic-3.png);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.imgbox4 {
+  background-image: url(./pic-4.png);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+h1 {
+  color: white;
+  font-size: 90px;
+}
+
+.text-sahara {
+  color: white;
+  line-height: 20px;
+}
+
+button {
+  width: 180px;
+  height: 40px;
+  color: black;
+  background-color: white;
+  border: 1px;
+  border-radius: 50px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+.text {
+  position: absolute;
+  top: 270px;
+  left: 80px;
+}
+
+@media screen and (max-width: 800px) {
+  #imghbox {
+    display: block;
+    width: 50vw;
+  }
+
+  .text {
+    margin-top: -150px;
+    font-size: 7px;
+    float: left;
+  }
+}
+@media screen and (max-width: 854px) {
+  body {
+    width: 100vw;
+    height: 500vh;
+    background-image: url(./sharadesert.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .imagecontainer {
+    margin-top: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 60vw;
+    height: 30vh;
+    gap: 25px 40px;
+    float: right;
+    margin-right: 50px;
+    margin-left: 50px;
+    align-content: space-between;
+  }
+}
+
+@media screen and (min-width: 491px) and (max-width: 700px) {
+  .imagecontainer {
+    margin-top: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 75vw;
+    height: 30vh;
+    gap: 25px 40px;
+    margin-right: 50px;
+    align-content: space-between;
+  }
+}
+
+@media screen and (max-width: 854px) {
+  .imagecontainer {
+    margin-top: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 75vw;
+    height: 30vh;
+    gap: 25px 40px;
+    margin-right: -150px;
+    margin-left: 50px;
+    align-content: space-between;
+  }
+}
